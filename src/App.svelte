@@ -1,12 +1,12 @@
-<script>
-	export let name;
+<script lang="ts">
+	export let name: string;
 	import AaronButton from './Buttons/AaronButton.svelte';
 </script>
 
 <main>
 	<h1>Hello {name}! 🍺 </h1>
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
-	<AaronButton/>
+	<AaronButton foo={33}/>
 	Hello
 </main>
 
